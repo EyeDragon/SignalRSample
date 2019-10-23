@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSample", "SignalRSample\SignalRSample.csproj", "{DA18F82D-5CB9-490A-845B-C0A4D56C6F4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppInsertData", "ConsoleAppInsertData\ConsoleAppInsertData.csproj", "{A6F65FE9-A2AC-4C94-BCD1-174FD7250E0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DA18F82D-5CB9-490A-845B-C0A4D56C6F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA18F82D-5CB9-490A-845B-C0A4D56C6F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA18F82D-5CB9-490A-845B-C0A4D56C6F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F65FE9-A2AC-4C94-BCD1-174FD7250E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F65FE9-A2AC-4C94-BCD1-174FD7250E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F65FE9-A2AC-4C94-BCD1-174FD7250E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F65FE9-A2AC-4C94-BCD1-174FD7250E0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

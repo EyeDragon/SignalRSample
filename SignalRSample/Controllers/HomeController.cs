@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SignalRSample.CoreProcess;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +9,8 @@ namespace SignalRSample.Controllers
 {
     public class HomeController : Controller
     {
+        private NotificationMessageRepository notificationMessage = new NotificationMessageRepository();
+
         public ActionResult Index()
         {
             return View();
@@ -25,6 +28,12 @@ namespace SignalRSample.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        public ActionResult GetMessages()
+        {
+            var result = notificationMessage.GetAllMessages();
+            return PartialView("_MessagesList", result);
         }
     }
 }
